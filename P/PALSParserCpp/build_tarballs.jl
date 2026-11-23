@@ -57,7 +57,7 @@ products = [
 
 # Dependencies that must be installed before this package can be built
 dependencies = [
-    # PALSParserCpp v0.0.3 is written against rapidyaml v0.15.
+    # PALSParserCpp v0.0.4 is written against rapidyaml v0.15.
     Dependency("rapidyaml_jll"; compat="0.15.0"),
     Dependency("PCRE2_jll"; compat="10.42.0"),
 ]
